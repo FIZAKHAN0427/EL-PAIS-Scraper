@@ -1,0 +1,39 @@
+userName: YOUR_USERNAME
+accessKey: YOUR_ACCESS_KEY
+
+framework: pytest
+
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: latest
+
+  - os: OS X
+    osVersion: Ventura
+    browserName: Safari
+    browserVersion: latest
+
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: chrome
+
+  - deviceName: iPhone 14
+    osVersion: 16
+    browserName: safari
+
+parallelsPerPlatform: 1
+
+browserstackLocal: false
+
+buildName: elpais-assignment-build
+projectName: elpais-assignment
+
+debug: true
+networkLogs: true
+consoleLogs: info
