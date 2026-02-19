@@ -1,6 +1,6 @@
 # El País Web Scraper
 
-**Fiza Khan** - BrowserStack Technical Assignment
+BrowserStack Technical Assignment
 
 ## Overview
 
@@ -42,3 +42,8 @@ browserstack-sdk pytest tests/browserstack_test.py
 - Translates Spanish titles to English (RapidAPI)
 - Identifies repeated words (>2 occurrences)
 - BrowserStack parallel execution (5 platforms)
+
+
+---
+
+Made by FIZA 😎
