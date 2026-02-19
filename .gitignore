@@ -5,3 +5,4 @@ images/
 *.pyc
 output/
 .pytest_cache
+log
